@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        .login-form {
+            width: 400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+            .login-form input {
+                width: 75%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+            }
+
+                .login-form input[type="submit"] {
+                    width: 50%;
+                    background-color: #4caf50;
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+
+            .login-form .error-message {
+                color: red;
+                font-size: 14px;
+                margin: 10px 0;
+            }
+    </style>
+</head>
+<body>
+    <form class="login-form">
+        <label for="username">Kullanıcı Adı:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Şifre:</label><br>
+        <input type="password" id="password" name="password"><br><br> 
+        <label for="Email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Giriş">
+    </form>
+
+</body>
+</html>
