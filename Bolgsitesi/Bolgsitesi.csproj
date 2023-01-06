@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\img\enlarge_..png" />
+    <None Include="wwwroot\img\images.jpg" />
+    <None Include="wwwroot\img\IMG_20230102_232714.jpg" />
+    <None Include="wwwroot\img\pexels-pixabay-164928.jpg" />
+    <None Include="wwwroot\img\photo-1619067321513-bb55a012e9b2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.1">
       <PrivateAssets>all</PrivateAssets>

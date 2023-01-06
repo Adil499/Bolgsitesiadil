@@ -1,0 +1,8 @@
+﻿Build started...
+1>------ Build started: Project: Bolgsitesi, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>C:\Users\mehme\Source\Repos\Adil499\Bolgsitesiadil\Bolgsitesi\Models\Context.cs(16,23,16,34): warning CS0114: 'Context.SaveChanges()' hides inherited member 'DbContext.SaveChanges()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+1>Bolgsitesi -> C:\Users\mehme\Source\Repos\Adil499\Bolgsitesiadil\Bolgsitesi\bin\Debug\net6.0\Bolgsitesi.dll
+1>Done building project "Bolgsitesi.csproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Elapsed 00:02,763 ==========
